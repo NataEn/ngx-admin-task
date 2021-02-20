@@ -61,36 +61,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
 
-  {
-    title: 'Extra Components',
-    icon: 'message-circle-outline',
-    children: [
-      {
-        title: 'Calendar',
-        link: '/pages/extra-components/calendar',
-      },
-      {
-        title: 'Progress Bar',
-        link: '/pages/extra-components/progress-bar',
-      },
-      {
-        title: 'Spinner',
-        link: '/pages/extra-components/spinner',
-      },
-      {
-        title: 'Alert',
-        link: '/pages/extra-components/alert',
-      },
-      {
-        title: 'Calendar Kit',
-        link: '/pages/extra-components/calendar-kit',
-      },
-      {
-        title: 'Chat',
-        link: '/pages/extra-components/chat',
-      },
-    ],
-  },
+
   {
     title: 'Maps',
     icon: 'map-outline',
