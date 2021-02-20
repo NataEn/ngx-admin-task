@@ -13,12 +13,6 @@ const routes: Routes = [{
       path: 'dashboard',
       component: DashboardComponent,
     },
-
-    {
-      path: 'ui-features',
-      loadChildren: () => import('./ui-features/ui-features.module')
-        .then(m => m.UiFeaturesModule),
-    },
     {
       path: 'charts',
       loadChildren: () => import('./charts/charts.module')
